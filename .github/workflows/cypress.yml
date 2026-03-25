@@ -21,7 +21,7 @@ jobs:
           cache: npm
       
       - name: Install dependencies
-        run: npm Install
+        run: npm install
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
